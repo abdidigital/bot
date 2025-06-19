@@ -4,7 +4,7 @@ require("dotenv").config();
 const bot = new Telegraf(process.env.BOT_TOKEN);
 
 // Ganti dengan URL WebApp kamu (misalnya dari Vercel)
-const WEBAPP_URL = "https://you-tube-ten-rouge.vercel.app";
+const WEBAPP_URL = "https://you-tube-git-main-khunays-projects.vercel.app/";
 
 bot.command("start", (ctx) => {
   ctx.reply("Selamat datang! Klik tombol di bawah untuk buka WebApp:", {
